@@ -1,3 +1,5 @@
+package edu.utleon.node.myspa.modelo;
+
 
 
 public class Sucursal {
