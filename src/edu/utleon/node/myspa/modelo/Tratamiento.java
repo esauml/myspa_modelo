@@ -2,6 +2,9 @@ package edu.utleon.node.myspa.modelo;
 
 // Modelo Tratamiento
 
+import java.util.List;
+
+
 
 /**
  *
@@ -14,6 +17,7 @@ public class Tratamiento {
     private String descripcion;
     private float costo;
     private int estatus;
+    private List<Producto> productos;
 
     public Tratamiento() {
     }
@@ -64,6 +68,17 @@ public class Tratamiento {
 
     public void setEstatus(int estatus) {
         this.estatus = estatus;
+    }
+
+    public List<Producto> getProductos()
+    {
+        return productos;
+    }
+
+    public void setProductos(
+            List<Producto> productos)
+    {
+        this.productos = productos;
     }
 
 }
